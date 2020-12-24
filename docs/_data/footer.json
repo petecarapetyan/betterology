@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Foo",
+    "children": [
+      {
+        "text": "Blog",
+        "href": "/blog/"
+      },
+      {
+        "text": "Help and Feedback",
+        "href": "/help/"
+      }
+    ]
+  },
+  {
+    "name": "Bar",
+    "children": [
+      {
+        "text": "Github",
+        "href": "https://github.com"
+      },
+      {
+        "text": "Twitter",
+        "href": "https://twitter.com"
+      },
+      {
+        "text": "Slack",
+        "href": "/about/slack/"
+      }
+    ]
+  },
+  {
+    "name": "Yada",
+    "children": [
+      {
+        "text": "Sponsor",
+        "href": "/about/sponsor/"
+      },
+      {
+        "text": "Wah",
+        "href": "/wah/"
+      }
+    ]
+  }
+]
