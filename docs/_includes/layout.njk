@@ -1,36 +1,42 @@
 <!doctype html>
 {% block htmlTag %}
-<html lang="{{site.lang}}" dir="{{site.dir}}">
+  <html lang="{{site.lang}}" dir="{{site.dir}}">
 {% endblock htmlTag %}
 
-  <head>
-    {% block headContent %}
-      {% include 'partials/head-content.njk' %}
-    {% endblock %}
-  </head>
+<head>
+  {% block headContent %}
+    {% include 'partials/head-content.njk' %}
+  {% endblock %}
+</head>
 
-  {% block bodyTag %}
+{% block bodyTag %}
   <body layout="{{layoutName}}">
-  {% endblock bodyTag %}
+{% endblock bodyTag %}
 
-    {% block header %}
-      {% include 'partials/header.njk' %}
-    {% endblock header%}
+<header>
+  <div class="content-area">
+    <a class="logo-link" href="{{ '/' | url }}">
+      <span>{{ site.name }}</span>
+    </a>
 
-    <div id="content-wrapper">
-      <div class="content-area">
-        {% block sidebar %}{% endblock sidebar %}
+    {%- for entry in collections.header %}
+      <a href="{{ entry.url | url }}" class="
+              {% if entry.url == page.url %} current {% endif %}
+              {% if (page.url.search(entry.url) !== -1) and (page.url !== '/') %} active {% endif %}
+            ">{{ entry.data.eleventyNavigation.key }}</a>
+    {%- endfor %}
+  </div>
+</header>
 
-        {% block main %}
-          {{ content.html | safe }}
-        {% endblock main %}
-      </div>
-    </div>
 
-    {% block footer %}
-      {% include 'partials/footer.njk' %}
-      {% include 'partials/pageJs.njk' %}
-      {% include 'partials/mobileNavigationJs.njk' %}
-    {% endblock footer %}
+<div id="content-wrapper">
+  <div class="content-area">
+    {% block sidebar %}{% endblock sidebar %}
+    {% block main %}
+      {{ content.html | safe }}
+    {% endblock main %}
+  </div>
+</div>
+
   </body>
 </html>
