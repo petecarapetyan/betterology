@@ -1,0 +1,37 @@
+{% extends 'layout-default.njk' %}
+
+{% block themeBody %}
+    <header id="main-header" class="header-grid-area">
+      {% block header %}
+        {% include 'partials/header.njk' %}
+      {% endblock header%}
+    </header>
+
+    <div class="ga-content-l"></div>
+
+  
+    <div class="ga-content-l"></div> 
+
+    <div class="sidebar-grid-area">
+      {% block sidebar %}
+        {% include 'partials/_layoutSidebar/sidebar.njk' %}
+      {% endblock sidebar %}
+    </div>
+
+    <div class="content-grid-area">
+      {% block content %}
+        {% include 'partials/_layoutSidebar/content.njk' %}
+      {% endblock content %}
+    </div>
+    
+    <div class="ga-content-r"></div>
+    
+    <div class="ga-foot-main">
+      {% block footer %}
+        {% include 'partials/footer.njk' %}
+      {% endblock footer %}
+    </div>
+
+
+    {% include 'partials/bottom.njk' %}
+{% endblock themeBody %}

@@ -1,19 +1,17 @@
 {
-  "name": "yada",
+  "name": "fixme",
   "version": "1.0.0",
-  "description": "yada rocket source code",
+  "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "rocket start",
-    "build": "rocket build",
-    "deploy": "npm run build && firebase deploy"
+    "build": "rocket build"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@d4kmor/cli": "^0.11.0",
-    "@d4kmor/launch": "^0.10.0"
+    "@rocket/cli": "^0.5.2",
+    "@rocket/launch": "^0.4.0"
   }
 }

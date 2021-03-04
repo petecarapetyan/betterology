@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Lorem Ipsum Sites",
+    "children": [
+      {
+        "text": "Walktown",
+        "href": "https://walktown.net"
+      },
+      {
+        "text": "Could Be",
+        "href": "https://couldbe.net"
+      },
+      {
+        "text": "myModeler",
+        "href": "https://myModeler.com"
+      },
+      {
+        "text": "WYSINATI",
+        "href": "https://wyisnati.com"
+      },
+      {
+        "text": "BTRG",
+        "href": "https://btrg.org"
+      }
+    ]
+  },
+  {
+    "name": "Substance",
+    "children": [
+      {
+        "text": "Rocket",
+        "href": "https://github.com/modernweb-dev/rocket"
+      },
+      {
+        "text": "AppWriter",
+        "href": "https://appwriter.com"
+      },
+      {
+        "text": "WebAppWriter",
+        "href": "https://webappwritercom"
+      },
+      {
+        "text": "dataFundamentals",
+        "href": "https://dataFundamentals.com"
+      },
+      {
+        "text": "Betterology Corp",
+        "href": "https://betterology.com"
+      }
+    ]
+  },
+  {
+    "name": "Personal",
+    "children": [
+      {
+        "text": "Aspie Automator",
+        "href": "https://aspieautomator.com"
+      },
+      {
+        "text": "My Twitter",
+        "href": "https://twitter.com/appwritercom"
+      }
+    ]
+  }
+]

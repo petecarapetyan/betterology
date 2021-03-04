@@ -3,5 +3,5 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'betterology ®',
-};
+  };
 };

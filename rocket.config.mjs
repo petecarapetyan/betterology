@@ -1,5 +1,5 @@
-import { rocketLaunch } from '@d4kmor/launch';
+import { rocketLaunch } from '@rocket/launch';
 
 export default {
-  themes: [rocketLaunch()],
+  presets: [rocketLaunch()],
 };

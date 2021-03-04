@@ -1,7 +1,0 @@
-@media screen and (min-width: 1024px) {
-  body[layout='home'][home-layout='background'] .page-background {
-    top: -210px;
-    right: -463px;
-    transform: rotate(45deg);
-  }
-}
