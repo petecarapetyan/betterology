@@ -7,12 +7,6 @@
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
-  color: var(--primary-text-color);
-  background-color: var(--page-background);
   display: flex;
   flex-flow: column;
   min-height: 100vh;
@@ -46,54 +40,6 @@ pre {
 .light-dark-switch {
   /* disabled for now */
   display: none !important;
-}
-
-.light-dark-switch::part(button) {
-  height: 20px;
-  width: 40px;
-}
-
-.light-dark-switch::part(thumb) {
-  right: 20px;
-  border: solid 1px #4d4d4d;
-  border-radius: 50%;
-  width: calc(50% - 2px);
-  height: calc(100% - 2px);
-  background-color: white;
-}
-
-.light-dark-switch[checked]::part(thumb) {
-  right: 0;
-}
-
-.light-dark-switch::part(track) {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-color: #4d4d4d;
-}
-
-.light-dark-switch[checked]::part(track)::before {
-  content: '🌞';
-  position: absolute;
-  left: 2px;
-  top: 4px;
-  line-height: 14px;
-}
-
-.light-dark-switch::part(track)::before {
-  content: '🌛';
-  position: absolute;
-  left: 22px;
-  top: 4px;
-  line-height: 14px;
-}
-
-.light-dark-switch {
-  margin-right: 50px;
-
-  --generic-switch-focus: 0 0 2px 3px #e63a46;
 }
 
 hr {
@@ -153,6 +99,7 @@ body[layout^='layout-home'] #main-header {
   transition: color 0.3s ease-in-out;
   font-weight: bold;
   order: 2;
+  text-transform: capitalize;
 }
 
 #main-header a:hover {
@@ -314,7 +261,7 @@ rocket-navigation > ul > li > a {
   color: var(--primary-color);
   font-weight: bold;
   font-size: 18px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 rocket-navigation > ul > li > ul a {
@@ -588,32 +535,7 @@ body[layout^='layout-home'] .page-title {
   color: var(--primary-color);
   font-size: 32px;
 }
-
-body[layout^='layout-home'] .page-logo {
-  display: block;
-  margin: 0 auto;
-  width: 35vw;
-  max-width: 250px;
-  color: var(--primary-color);
-}
-
-body[layout^='layout-home'] .page-title,
-body[layout^='layout-home'] .reason-header,
-body[layout^='layout-home'] .page-slogan {
-  text-align: center;
-  border-bottom: none;
-  color: var(--text-color);
-}
-
-body[layout^='layout-home'] .page-slogan {
-  font-size: 18px;
-}
-
-body[layout^='layout-home'] .reason-header {
-  margin-top: 60px;
-}
-
-body[layout^='layout-home'] .reasons {
+body[layout^='layout-home'] .teasers {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   column-gap: 100px;

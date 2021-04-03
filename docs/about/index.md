@@ -6,9 +6,9 @@ Betterology Corp is a Texas corporation based in Bastrop, Texas USA
 
 Betterology Corp began it's history as EDSL Corporation, in the 1980s.
 
-It has always been owned solely by Pete Carapetyan, of Bastrop
+It has always been owned solely by Pete Carapetyan, who now resides in Bastrop, Texas
 
-It changed it's name to Betterology Corp in 2006.
+The name was changed to Betterology Corp in 2006.
 
 ## Contact
 
