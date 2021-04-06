@@ -52,16 +52,36 @@
     "name": "Actual Substance?",
     "children": [
       {
-        "text": "Rocket",
+        "text": "Rocket, an SSG",
         "href": "https://rocket.modern-web.dev/"
       },
       {
-        "text": "WebAppWriter",
+        "text": "WebAppWriter.com",
         "href": "https://webappwriter.com"
       },
       {
+        "text": "dataFundamentals.com",
+        "href": "https://datafundamentals-com.web.app/"
+      },
+      {
         "text": "Betterology Corp",
-        "href": "https://betterology.com"
+        "href": "https://betterology-com.web.app/"
+      },
+      {
+        "text": "More on Rocket Themes",
+        "href": "https://github.com/petecarapetyan/rocket-themes"
+      },
+      {
+        "text": "What is an SSG?",
+        "href": "https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators"
+      },
+      {
+        "text": "What is JAMStack?",
+        "href": "https://jamstack.org/"
+      },
+      {
+        "text": "11ty",
+        "href": "https://www.11ty.dev/"
       }
     ]
   },

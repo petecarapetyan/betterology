@@ -1,4 +1,4 @@
-# About
+# About Betterology Corp
 
 Betterology Corp is a Texas corporation based in Bastrop, Texas USA
 
