@@ -13,5 +13,8 @@
   "devDependencies": {
     "@rocket/cli": "^0.6.0",
     "@rocket/launch": "^0.4.0"
+  },
+  "dependencies": {
+    "child-process-promise": "^2.2.1"
   }
 }
