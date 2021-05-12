@@ -11,9 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@rocket/cli": "^0.6.0",
-    "@rocket/launch": "^0.4.0",
-    "@rocket/search": "^0.3.2"
+    "@rocket/cli": "^0.7.0",
+    "@rocket/launch": "^0.4.2",
+    "@rocket/search": "^0.3.5"
   },
   "dependencies": {
     "child-process-promise": "^2.2.1"

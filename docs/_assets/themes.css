@@ -1,3 +1,13 @@
+.socials {
+  display: flex;
+  justify-items: center;
+  order: 2;
+}
+
+.social-link {
+  margin: 2px;
+}
+
 #main-header.header-grid-area {
   display: flex;
   justify-content: space-between;
