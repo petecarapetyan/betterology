@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>/</loc>
+      <lastmod>2021-04-04T13:58:33.748Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/computational/</loc>
+      <lastmod>2021-04-04T13:58:33.778Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/about/</loc>
+      <lastmod>2021-04-04T13:58:33.814Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>/404.html</loc>
+      <lastmod>2021-05-03T16:28:00.719Z</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+</urlset>

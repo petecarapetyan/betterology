@@ -1,21 +1,21 @@
 {
-  "name": "fixme",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
+  "name": "FIXME",
+  "version": "0.2.0",
+  "description": "Initial migration from rocket",
+  "main": "index.html",
   "scripts": {
-    "start": "rocket start",
-    "build": "rocket build"
+    "build": "eleventy",
+    "serve": "eleventy --serve  --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Pete Carapetyan",
+  "license": "MIT",
   "devDependencies": {
-    "@rocket/cli": "^0.7.0",
-    "@rocket/launch": "^0.4.2",
-    "@rocket/search": "^0.3.5"
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5"
   },
   "dependencies": {
-    "child-process-promise": "^2.2.1"
+    "@types/node": "^22.9.0"
   }
 }

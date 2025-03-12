@@ -1,12 +1,11 @@
-# for rocket
-docs/_merged_data/
-docs/_merged_assets/
-docs/_merged_includes/
+historydeleteme.txt
+commit.sh
+extra/
 _site/
 _site-dev
 
+
 deploy.sh
-lastPushed.txt
 
 #firebase
 .firebase
