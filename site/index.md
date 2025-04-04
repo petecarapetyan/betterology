@@ -1,6 +1,10 @@
 ---
 title: Lorem Ipsum!
 layout: layout-home
+eleventyNavigation:
+  key: /
+  title: Home
+  order: 999
 slogan: voluptate deserunt mollit labore enim aliquip nisi ad pariatur qui non mollit
 callToActionItems:
   - title: nulla laborum et adipisicing
