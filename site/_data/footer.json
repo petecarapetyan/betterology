@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Other",
+    "children": [
+      {
+        "text": "not-npr",
+        "href": "https://appwriter.com/"
+      }
+    ]
+  },
+  {
+    "name": "Personal",
+    "children": [
+      {
+        "text": "Aspie Automator",
+        "href": "https://aspieautomator.com/"
+      }
+    ]
+  }
+]
