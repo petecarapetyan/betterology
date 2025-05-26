@@ -33,46 +33,6 @@ rm static/images/bulksplash-*.jpg
 rm site/_includes/layout-simulator.njk
 rm site/_includes/layout-home-background.njk
 
-# no favicon was found pertaining to datafundamentals
-# hand copy this into the theme.css
-# ```
-
-# .copyright {
-#   display: grid;
-#   justify-content: center;
-#   align-items: center;
-#   font-size: 9px;
-# }
-
-# .socials {
-#   display: flex;
-#   flex-flow: row;
-#   align-items: center;
-#   justify-content: center;
-# }
-
-# .social-link {
-#   display: block;
-#   width: 30px;
-#   height: 30px;
-# }
-
-# .logo-link img {
-#   width: 250px;
-#   height: 42px;
-#   vertical-align:auto;
-# }
-# ```
-
-# after manually copying in the image
-# replaced site/_includes/snippet/header-logo-background.njk with 
-```
-<a class="logo-link" href="{{ '/' | url }}">
-	<img src="/static/images/datafundamentals250simplici.gif" />
-	<span class="sr-only">{{ site.name }}</span>
-</a>
-```
-
 # manually made all relevant changes in site/_data/site.cjs
 
 # all of the content needs to be updated as it is very old and not relevant

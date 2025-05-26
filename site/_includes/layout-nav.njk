@@ -6,14 +6,14 @@
 {% block htmlTag %}
 <html lang="{{ site.lang }}" dir="{{ site.dir }}">
 {% endblock htmlTag %}
-{% include '_block/head.njk' %}
+{% include 'block/head.njk' %}
 {% block bodyTag %}
   <body layout="{{ layout }}">
 {% endblock bodyTag %}
 {% block themeBody %}
     {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
 {% endblock themeBody%}
-{% include '_block/header.njk' %}
-{% include '_block/footer.njk' %}
+{% include 'block/header.njk' %}
+{% include 'block/footer.njk' %}
   </body>
 </html>

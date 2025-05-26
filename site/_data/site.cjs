@@ -2,7 +2,7 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'Betterology Corp',
+    name: 'flower',
     description: 'not-virgin  theme',
     socialLinks: [
       {

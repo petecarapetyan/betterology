@@ -364,8 +364,7 @@ li.current > ul > li.anchor {
     padding: 0 25px 0 0;
   }
 
-  body[layout='layout-sidebar'] #sidebar,
-  body[layout='layout-index'] #sidebar {
+  body[layout='layout-sidebar'] #sidebar {
     display: block;
   }
 }
@@ -502,24 +501,6 @@ main > * {
   background: var(--primary-color-darker);
 }
 
-/** LAYOUT-INDEX ******************************************************************************************/
-#layout-index-open-navigation {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-#layout-index-open-navigation svg {
-  width: 20px;
-  margin-right: 20px;
-}
-
-@media screen and (min-width: 1024px) {
-  #layout-index-open-navigation {
-    display: none;
-  }
-}
 
 /** HOME ******************************************************************************************/
 
