@@ -1,5 +1,5 @@
 ---
-title: Betterology Corp
+title: Home
 layout: layout-home
 ---
 # Software Development
