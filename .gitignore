@@ -3,6 +3,7 @@ commit.sh
 extra/
 _site/
 _site-dev
+site/
 
 
 deploy.sh
