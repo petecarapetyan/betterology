@@ -1,20 +1,22 @@
 {
   "type": "module",
   "name": "FIXME",
-  "version": "0.2.0",
-  "description": "Initial migration from rocket",
+  "version": "0.3.0-260125",
+  "description": "First pre-automation status",
   "main": "index.html",
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve  --port=3000",
+    "preview": "npm run build && npx serve _site",
     "test": "echo \"Error: no test specified\" && exit 1"
   
   },
   "author": "Pete Carapetyan",
   "license": "MIT",
+  
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-navigation": "^0.3.5"
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-navigation": "^1.0.5"
   },
   "dependencies": {
     "@types/node": "^22.9.0"
